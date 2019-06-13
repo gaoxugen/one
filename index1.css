@@ -1,0 +1,123 @@
+html,body,div,a,img,ul,li,span,p,ol,strong,i
+{
+	margin: 0;
+	padding: 0;
+}
+ul,li
+{
+	list-style: none;
+}
+a
+{
+	text-decoration: none;
+	color: #000;
+}
+img
+{
+	border: 0;
+	vertical-align: bottom;
+}
+
+.container
+{
+	/*background: rgb(217,217,217);*/
+}
+.container-center
+{
+	width: 1000px;margin:auto;
+}
+.header{}
+.header-img{}
+.header-img>a
+{
+	display: block;
+}
+.header-img>a>img
+{
+	width: 1000px;height: 101px;
+}
+.header-list{}
+.header-list>ul
+{
+	overflow: hidden;
+	line-height: 52px;
+	background: rgb(232,50,36);
+	border-bottom: 3px solid #fff;
+}
+.header-list>ul>li
+{
+	float: left;
+	width: 125px;
+}
+.header-list>ul>li>a
+{
+	display: block;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	transition:all 0.5s;
+}
+.header-list a:hover
+{
+	opacity:0.7
+}
+
+.content{overflow:hidden;}
+.content-left{position:relative;float: left;margin-top: 20px;}
+.content-right{}
+.content-img{}
+.content-img>img{}
+.content-ziti{position:absolute;left:50px;top:15px;}
+.content-ziti>a{color: #fff;font-size: 14px;}
+.content-right{float: right;}
+.content-right .ul1{}
+.ul-box1>ul{width:710px;line-height:40px;
+height: 41px;background:rgb(230,230,230);border-bottom:1px solid red;}
+.ul-box1>ul>li{float: left;}
+.ul-box1>ul>li>a{font-size:12px;}
+
+.ul-box2{/*background: red;*/border: 1px solid #eee}
+.ul-box2>ul{width:710px;height: 350px;padding-top: 5px}
+.ul-box2>ul>li{width:710px;height: 21px;margin-left: 30px;list-style: disc;}
+.ul-box2>ul>li>a{float: left;font-size:14px;}
+.ul-box2 span{float: right;font-size:14px;margin-right: 40px;}
+
+.ul-box2>ul>li:last-child{list-style: none;margin-left: 250px;font-size: 14px;
+margin-top: 3px;}
+.ul-box2>ul>li i{font-style: normal;margin-right: 5px;}
+.ul-box2>ul>li:last-child strong{color: #eee;border:1px solid #aaa;}
+.box{background:rgb(230,250,255);margin: 20px 0;line-height: 20px;text-align: center;}
+.box span{font-size: 14px;}
+.footer
+{
+	padding: 15px 130px;
+	
+}
+.footer-text
+{
+	width: 615px;
+	margin: auto;
+	text-align: center;
+	margin-left: -20px
+}
+.footer-text>p
+{
+	font-size: 12px;
+	margin-top: 5px;
+	color: #000;
+	cursor:pointer;
+}
+
+.footer-img>a
+{
+	display: block;
+	position: relative;
+}
+.footer-img>a>img
+{
+	display: inline-block;
+	position: absolute;
+	right: 35px;
+	top: -65px;
+}
+
